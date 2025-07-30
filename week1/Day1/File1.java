@@ -14,7 +14,7 @@ public class File1{
     }
 
     static int  funn(int a,int b){
-        if(a && b && a+b >0){   // no comaprision , will give error in java,cpp but works well in python.
+        if(a>0 && b>0 && a+b >0){   
             return a+funn(a-2, b-2)+b;
         }
         return a^b;
